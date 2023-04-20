@@ -1,0 +1,29 @@
+{
+  "name": "garden",
+  "version": "1.0.0",
+  "description": "A web app for smart gardening",
+  "author": "Md Aushaif",
+  "keywords": [
+    "Web2"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/app",
+    "dev": "nodemon ./bin/app"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "http-errors": "^2.0.0",
+    "mqtt": "^4.3.7",
+    "pino": "^8.11.0",
+    "pino-http": "^8.3.3",
+    "pino-pretty": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
